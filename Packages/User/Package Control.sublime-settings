@@ -1,0 +1,21 @@
+{
+	"in_process_packages":
+	[],
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"ColorPicker",
+		"dired",
+		"Dotfiles Syntax Highlighting",
+		"Emmet",
+		"Git",
+		"JsFormat",
+		"LiveStyle",
+		"Local History",
+		"Maybs Quit",
+		"Modific",
+		"nginx",
+		"Package Control",
+		"Theme - Soda"
+	]
+}

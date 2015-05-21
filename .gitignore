@@ -1,0 +1,6 @@
+*.sublime-settings
+Cache
+Local
+Index
+Installed Packages/*
+Packages/*

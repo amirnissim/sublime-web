@@ -1,0 +1,36 @@
+[
+  // swap the keybindings for paste and paste_and_indent
+  {
+    "keys": ["super+v"],
+    "command": "paste_and_indent"
+  }, {
+    "keys": ["super+shift+v"],
+    "command": "paste"
+  }, {
+    "keys": ["super+shift+backspace"],
+    "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}
+  },
+
+  // restore default key bindings that were overridden by packages
+  {
+    "keys": ["super+shift+r"],
+    "command": "goto_symbol_in_project"
+  }, {
+    "keys": ["super+alt+down"],
+    "command": "goto_definition"
+  },
+
+  // Macros
+  {
+    "keys": ["super+shift+;"],
+    "command": "run_macro_file",
+    "args": {
+      "file": "Packages/User/Macros/semicolon_newline.sublime-macro"
+    }
+  },
+
+  // Building
+  {"keys": ["super+b"], "command": "build"},
+  { "keys": ["super+shift+b"], "command": "build", "args": {"variant": "clean"} },
+  {"keys": ["super+alt+b"], "command": "build", "args": {"variant": "alt_build"} }
+]
