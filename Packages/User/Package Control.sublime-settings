@@ -3,19 +3,32 @@
 	[],
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Better CoffeeScript",
+		"CoffeeCompile",
+		"CoffeeScriptHaml",
 		"ColorPicker",
+		"DashDoc",
 		"dired",
+		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
 		"Emmet",
 		"Git",
+		"Haml",
+		"Jade",
 		"JsFormat",
 		"LiveStyle",
 		"Local History",
+		"Markdown Preview",
 		"Maybs Quit",
 		"Modific",
 		"nginx",
 		"Package Control",
+		"Path Tools",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-coffeelint",
 		"Theme - Soda"
 	]
 }
